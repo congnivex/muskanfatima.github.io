@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, sans-serif;
   background: #0f0f1a;
   color: white;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -13,23 +13,28 @@ body {
 }
 
 .hero h1 {
-  font-size: 50px;
+  font-size: 48px;
   margin: 0;
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.9;
 }
 
 /* SECTIONS */
 section {
-  padding: 50px 20px;
   max-width: 900px;
   margin: auto;
+  padding: 50px 20px;
 }
 
-/* PROJECT CARDS */
+/* ABOUT */
+.about {
+  text-align: center;
+}
+
+/* PROJECTS */
 .projects {
   text-align: center;
 }
@@ -43,7 +48,7 @@ section {
 }
 
 .project-card:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   background: #222244;
 }
 
@@ -56,11 +61,17 @@ section {
 /* SKILLS */
 .skills {
   text-align: center;
-  font-size: 18px;
 }
 
 /* CONTACT */
 .contact {
   text-align: center;
-  opacity: 0.8;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  font-size: 14px;
 }
